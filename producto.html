@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/note-taking-c.ico" type="image/x-icon">   
+    <title>Mi Sitio</title>
+</head>
+<body>
+    <header>
+        <h1>Producto</h1>
+       </header> 
+       <nav>
+        <a href="index.html">Home</a>
+        <a href="producto.html">Producto</a>
+        <a href="contacto.html">Contacto</a>
+       </nav>
+       <main>
+          <h2>Tabla de productos</h2>
+          <table border="4">
+            <tr>
+                <th>Producto</th>
+                <th>Kg</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>Azucar</td>
+                <td>1</td>
+                <td>$500</td>
+            </tr>
+            <tr>
+                <td><img src="img/piggy-bank-9.png" width="100" alt="2"></td>
+                <td>500</td>
+                <td>$200</td>
+            </tr>
+          </table>
+
+       </main>
+       <section>
+        <h3>Formulario</h3>
+        <form method="post">
+            <p>
+            <label for="nomb">Nombre:</label>
+            <input type="text" name="nombre" id="nomb" placeholder="Ingrese su nombre:" required autocomplete="off">
+        </p>
+            <p>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name ="apellido" id="apellido" placeholder="Ingrese su apellido" required autocomplete="off" size="50">
+            </p>
+            <p>
+                <label for="edad">Edad:</label>
+                <input type="number" name ="edad" id="edad" placeholder="Ingrese su edad:" min="1" max="65" step="2" required autocomplete="off">
+                </p>
+
+                <h3>Selecciona un lenguaje o más</h3>
+                <input type="checkbox" name="opcion" value="1">Java
+                <br>
+                <input type="checkbox" name="opcion" value="2">C
+                <br>
+                <input type="checkbox" name="opcion" value="3">Python
+                <br>
+                <input type="checkbox" name="opcion" value="4">C++
+
+                <br><br><br>
+
+                <h3>Selecciona una opción</h3>
+                <input type="radio" name="opcion" value="1">Java
+                <br>
+                <input type="radio" name="opcion" value="2">C
+                <br>
+                <input type="radio" name="opcion" value="3">Python
+                <br>
+                <input type="radio" name="opcion" value="4">C++
+
+                <br><br><br>
+
+                CONTRASEÑA<input type="password" name="" id="">
+                <br>
+                <br>
+
+            <input type="submit" value="Enviar">
+            
+            <br>
+            <br>
+            
+            <fieldset>
+                <legend>Personalia:</legend>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday"><br><br>
+                <input type="submit" value="Submit">
+               </fieldset>
+
+        </form>
+
+       </section>
+       <br> <br> <br>
+       <footer>
+        <p>DerechosReservados</p>
+        <p>2023</p>
+       </footer>
+</body>
+</html>
